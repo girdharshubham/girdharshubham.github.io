@@ -61,6 +61,7 @@ author:
   name   : "Shubham Girdhar"
   avatar : "/assets/images/girdharshubham.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
+  location: "New Delhi, IN"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
