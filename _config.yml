@@ -30,7 +30,7 @@ kramdown:
 # Site owner
 owner:
   name: Shubham Girdhar
-  avatar: /assets/images/girdharshubham.png
+  avatar: "/assets/images/girdharshubham.png"
   bio: "DevOps Engineer at Knoldus, loves the Scala ecosystem"
   email: girdharshubham@hotmail.com
   disqus-shortname: 
