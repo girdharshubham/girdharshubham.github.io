@@ -67,10 +67,10 @@ author:
   location: "New Delhi, IN"
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fa fa-fw fa-twitter-square"
       url: "https://twitter.com/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa fa-fw fa-github"
       url: "https://github.com/girdharshubham"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
