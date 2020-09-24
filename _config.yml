@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Shubham Girdhar"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/girdharshubham.png"
   bio              : "DevOps Engineer at Knoldus Inc, loves the Scala ecosystem"
   location         : "New Delhi, IN"
   email            : "girdharshubham@hotmail.com"
@@ -113,7 +113,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/girdharshubham"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
