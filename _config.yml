@@ -67,7 +67,7 @@ author:
   location: "New Delhi, IN"
   links:
     - label: "Twitter"
-      icon: "fa fa-fw fa-twitter-square"
+      icon: "fa fa-twitter-square"
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-github-square"
