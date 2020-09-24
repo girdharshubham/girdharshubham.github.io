@@ -70,7 +70,7 @@ author:
       icon: "fa fa-fw fa-twitter-square"
       url: "https://twitter.com/"
     - label: "GitHub"
-      icon: "fa fa-fw fa-github"
+      icon: "fab fa-github-square"
       url: "https://github.com/girdharshubham"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
