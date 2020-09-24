@@ -70,11 +70,11 @@ author:
       icon: "fa fa-twitter-square"
       url: "https://twitter.com/"
     - label: "GitHub"
-      icon: "fab fa-github-square"
+      icon: "fa fa-github-square"
       url: "https://github.com/girdharshubham"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 # footer:
 #   links:
