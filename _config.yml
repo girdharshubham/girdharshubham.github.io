@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: girdharshubham
 minimal_mistakes_skin: neon
-search: true
+search: false
 name: "Shubham Girdhar"
 url: "https://shubhamgirdhar.com"
 
@@ -38,7 +38,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 locale: "en-US"
 
 include:
-  - _pages
+  # - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
