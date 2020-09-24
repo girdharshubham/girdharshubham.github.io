@@ -67,14 +67,14 @@ author:
   location: "New Delhi, IN"
   links:
     - label: "Twitter"
-      icon: "fa fa-twitter-square"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
-    # - label: "GitHub"
-    #   icon: "fa fa-github-square"
-    #   url: "https://github.com/girdharshubham"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/girdharshubham"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 # footer:
 #   links:
@@ -89,17 +89,17 @@ author:
 #       url: "https://instagram.com/"
 
 defaults:
-  # _posts
-  # - scope:
-  #     path: ""
-  #     type: posts
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     read_time: true
-  #     comments: true
-  #     share: true
-  #     related: true
+  _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   _pages
   - scope:
       path: "_pages"
