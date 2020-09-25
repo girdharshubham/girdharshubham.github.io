@@ -99,7 +99,7 @@ Error: Missing required argument
 The argument "region" is required, but no definition was found.
 
 {% endhighlight %}  
-We can ignore the this error as it is benign. We're going to pass provider specific values using env vars.  
+We can ignore this error as it is benign. We're going to pass provider specific values using env vars.  
 
 ## Step 7. Export variables and create a Terraform plan  
 {% highlight shell %}
