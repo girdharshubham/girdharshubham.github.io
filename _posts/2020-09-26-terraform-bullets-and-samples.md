@@ -24,3 +24,17 @@ This post contains all the content exercised while learning [Terraform](https://
   
 ## More on `.tfstate`  
 This is a state file that terraform creates when the project is first initialized. It is on the basis of this file that plans and infrastrucure are created. This file is refreshed prior to any operation on the infrastructure. This is kinda your source of truth to measure configuration changes i.e. if you make a change, `terraform` compares that change with the state file to identify what resource is going to be changed.  
+  
+# Build Infrastructure - AWS  
+## Step 1. Create an AWS account and get security credentials for it - AWSAccessKeyId and AWSSecretKey  
+## Step 2. Download and install aws cli  
+{% highlight shell %}
+$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+{% endhighlight %}
+
+**main.tf**
+{% highlight hcl %}
+
+{% endhighlight %}
