@@ -3,10 +3,8 @@
 title:            Shubham Girdhar
 locale:           en_US
 url:              https://shubhamgirdhar.com
-# url:              http://localhost:4000
 
 name: SHUBHAM GIRDHAR
-# description: Thoughts on statistics, data science, computational biology, education, and R
 
 # Jekyll configuration
 
@@ -31,7 +29,7 @@ kramdown:
 owner:
   name: Shubham Girdhar
   avatar: "/assets/images/girdharshubham.png"
-  bio: "DevOps Engineer at Knoldus, loves the Scala ecosystem"
+  bio: "DevOps Engineer at Knoldus, loves the Scala ecosystem 🔥"
   email: girdharshubham@hotmail.com
   disqus-shortname: 
   twitter: 
@@ -44,7 +42,7 @@ owner:
     ad-slot: 
   bing-verify: 
   github: girdharshubham
-  stackoverflow: 
+  stackoverflow: 7448575
   linkedin: girdharshubham
   instagram: #username
   lastfm: #username
