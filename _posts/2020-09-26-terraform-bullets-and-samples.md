@@ -4,7 +4,7 @@ comments: true
 category: ["iac","terraform"]
 ---  
 This post contains all the content exercised while learning [Terraform](https://www.terraform.io/)  
-  
+    
 =========  
 # What is Terraform  
 * IaC offering by Hashicorp.  
