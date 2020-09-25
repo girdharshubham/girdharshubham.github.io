@@ -34,7 +34,24 @@ unzip awscliv2.zip
 sudo ./aws/install
 {% endhighlight %}
 
+## Step 3. Write main.tf
 **main.tf**
 {% highlight hcl %}
+terraform {
+    required_providers {
+        aws = {
+            source          = "hasicorp/aws"
+            version         =  "~> 3.0"
+        }
+    }
+}
 
-{% endhighlight %}
+provider "aws" {} # Going to provide the credentials as env vars
+
+resource "aws_instance" "ami_instance" {
+    ami                     = "ami-830c94e3"
+    instance_type           = "t2.micro"
+}
+{% endhighlight %}  
+  
+### Code breakdown  
