@@ -4,8 +4,7 @@ title: "About"
 layout: page
 image:
     feature: barish.jpeg
-    credit: Knoldus Inc.
-    caption: "Photo: [Knoldus' Foundation Day 2020](https://www.knoldus.com/home)"
+    credit: Shubham - Barish, Noida.
 ---
 I'm a DevOps engineer at Knoldus. My interests include containerization, Orchestration, education, and programming in Scala.  
 =========  
