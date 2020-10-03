@@ -8,5 +8,4 @@ I've been dodging taking the CKA test for months now and I feel like it's about 
 The first thing that I'd need is a Kubernetes cluster. For that, I'd be using a Minikube environment on docker - which I think has become the default option.  
 Here's to starting this preparation journey and hoping that I end up with something more than just a certification.   
 Cheers!  
-
 ![unleash-the-beast](https://media.giphy.com/media/3o8doT5DaMjfH3paHC/giphy.gif)
