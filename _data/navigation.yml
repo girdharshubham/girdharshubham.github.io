@@ -1,7 +1,8 @@
 # Site navigation links
+- title: Resume
+  url: /resume/
 - title: About Me
   url: /about/
 - title: Posts
   url: /posts/
-- title: Resume
-  url: /resume/
+  
