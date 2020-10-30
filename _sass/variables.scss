@@ -30,7 +30,7 @@ $info				  : #308cbc;
 // Links
 $linkcolor 		    : #343434;
 $link-color       : $linkcolor;
-$linkcolorhover 	: darken( #C64537, 10);
+$linkcolorhover 	: darken($linkcolor, 10);
 $linkcolorvisited : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
 
