@@ -4,7 +4,9 @@ comments: true
 category: ["configuration management","ansible", "authentication"]
 ---  
 
-<div align="center">![unleash-the-beast](https://media.giphy.com/media/jp2KXzsPtoKFG/giphy.gif)</div>
+<p align="center">
+  <img src="https://media.giphy.com/media/jp2KXzsPtoKFG/giphy.gif"/>
+</p>
 
 - [What is Kerberos?](#what-is-kerberos)
 - [Kerberos Terminology](#kerberos-terminology)
