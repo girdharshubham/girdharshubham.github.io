@@ -49,7 +49,7 @@ terraform {
 provider "aws" {} # Going to provide the credentials as env vars
 
 resource "aws_instance" "ami_instance" {
-    ami                     = "ami-0cda377a1b884a1bc"
+    ami                     = "ami-098f16afa9edf40be"
     instance_type           = "t2.micro"
 }
 {% endhighlight %}  
@@ -105,7 +105,7 @@ We can ignore this error as it is benign. We're going to pass provider specific 
 {% highlight shell %}
 $ export AWS_ACCESS_KEY_ID="anaccesskey"
 $ export AWS_SECRET_ACCESS_KEY="asecretkey"
-$ export AWS_DEFAULT_REGION="us-west-2"
+$ export AWS_DEFAULT_REGION="us-east-1"
 $ terraform plan
 Refreshing Terraform state in-memory prior to plan...
 The refreshed state will be used to calculate this plan, but will not be
