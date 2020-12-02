@@ -4,6 +4,8 @@ comments: true
 category: ["kafka"]
 ---  
 
+> Originally published at the [Knoldus Blog](https://blog.knoldus.com/devops-shorts-how-to-increase-the-replication-factor-for-a-kafka-topic/)
+  
 Have you ever faced a situation where you had to increase the replication factor for topic? Turns out it's really easy to do it.
 In this super short blog, let's try to do just that.
   
@@ -63,7 +65,7 @@ Save this to use as the --reassignment-json-file option during rollback
 Successfully started partition reassignments for one-0,one-1,one-2,one-3,one-4,one-5,one-6,one-7,one-8,one-9
 {% endhighlight %}  
 
-## Step 4: Describe the topic again
+## Step 5: Describe the topic again
 {% highlight shell %}
 $ ./bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic one
 Topic: one	PartitionCount: 10	ReplicationFactor: 2	Configs: segment.bytes=1073741824
