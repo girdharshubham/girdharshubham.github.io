@@ -5,7 +5,7 @@ category: ["kafka"]
 ---  
 
 Have you ever faced a situation where you had to increase the replication factor for topic? Turns out it's really easy to do it.
-In this super short blog, let's try to do just that.  
+In this super short blog, let's try to do just that.
 
 We'd start with creating a topic, `one`, with  a replication factor of just `1` and then work on bits that include creating the `increase.json` file and then actually triggering the plan
 
