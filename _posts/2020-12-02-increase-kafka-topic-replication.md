@@ -4,7 +4,7 @@ comments: true
 category: ["kafka"]
 ---  
 
-> Originally published at the [Knoldus Blog](https://blog.knoldus.com/devops-shorts-how-to-increase-the-replication-factor-for-a-kafka-topic/)
+> Originally published at the [Knoldus Blog](https://blog.knoldus.com/devops-shorts-how-to-increase-the-replication-factor-for-a-kafka-topic/){:target="_blank"}
   
 Have you ever faced a situation where you had to increase the replication factor for a topic? Turns out it's really easy to do it.
 In this super short blog, let's try to do just that. <br />
