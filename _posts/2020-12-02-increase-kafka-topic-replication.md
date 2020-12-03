@@ -4,13 +4,13 @@ comments: true
 category: ["kafka"]
 ---  
 
-> Originally published at the [Knoldus Blog](https://blog.knoldus.com/devops-shorts-how-to-increase-the-replication-factor-for-a-kafka-topic/){:target="_blank"}
+> Originally published on [Knoldus Blogs](https://blog.knoldus.com/devops-shorts-how-to-increase-the-replication-factor-for-a-kafka-topic/){:target="_blank"}
   
 Have you ever faced a situation where you had to increase the replication factor for a topic? Turns out it's really easy to do it.
 In this super short blog, let's try to do just that. <br />
 We'd start with creating a topic, `one`, with a replication factor of just `1` and then work on bits that include creating the `increase.json` file and then actually triggering the plan.
 
-## Step 1: Create Kafka Topic
+## Step 1: Create a Kafka Topic
 {% highlight shell %}
 $ ./bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic one --replication-factor 1 --partitions 10
 Created topic one.
