@@ -14,8 +14,7 @@ A Tree can be defined with - The Tree itself, a Node, an End, and a definition f
 ### Tree
 {% highlight scala %}
 sealed trait Tree[+A]
-{% endhighlight %}  
-
+{% endhighlight %}
 ### Node
 {% highlight scala %}
 case class Node[A](value: A, left: Tree[A], right: Tree[A]) extends Tree[A]
@@ -23,7 +22,7 @@ case class Node[A](value: A, left: Tree[A], right: Tree[A]) extends Tree[A]
 ### End
 {% highlight scala %}
 case object End extends Tree[Nothing]
-{% endhighlight %
+{% endhighlight %}
 ### apply() for End 
 {% highlight scala %}
 object Node {
