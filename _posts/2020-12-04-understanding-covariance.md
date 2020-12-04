@@ -1,5 +1,5 @@
 ---  
-title: "How I Understand Covariance"
+title: "This Is How I Understand Covariance"
 comments: true
 category: ["scala", "fp"]
 ---  
