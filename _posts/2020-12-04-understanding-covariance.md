@@ -4,8 +4,10 @@ comments: true
 category: ["scala", "fp"]
 ---  
 The definition says that Covariance can be defined as:  
->A type parameter T of a generic class can be made covariant by using the annotation +T. For some class List[+T], making T covariant implies that for two types A and B where B is a subtype of A, then List[B] is a subtype of List[A]. This allows us to make very useful and intuitive subtyping relationships using generics.<br/>
-Easy. Right?<br/>
+>A type parameter T of a generic class can be made covariant by using the annotation +T. For some class List[+T], making T covariant implies that for two types A and B where B is a subtype of A, then List[B] is a subtype of List[A]. This allows us to make very useful and intuitive subtyping relationships using generics.  
+<br/>
+Easy. Right?  
+<br/>
 A situation where this can be applied is in case of a Tree.<br/>
 A Tree can be defined with - The Tree itself, a Node, an End, and a definition for apply that takes only a value:<br/>
 * Tree:<br/>
