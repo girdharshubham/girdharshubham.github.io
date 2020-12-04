@@ -29,7 +29,7 @@ object Node {
   def apply[A](value: A): Node[A] = Node(value, End, End)
 }
 {% endhighlight %}<br/>
-What makes this Covariant?<br/>
+## What makes this Covariant?
 In the Scala type hierarchy, the bottom most type is called `Noting` and all types have `Nothing` as their subtype.<br/>
 For Example: Nothing <: Int<br/>
 By modifying the type parameter for Tree[A] to Tree[+A], we basically would establish a rule that tells this story:<br/>
