@@ -19,11 +19,11 @@ sealed trait Tree[+A]
 ### Node
 {% highlight scala %}
 case class Node[A](value: A, left: Tree[A], right: Tree[A]) extends Tree[A]
-{% endhighlight %}<br/>
+{% endhighlight %}
 ### End
 {% highlight scala %}
 case object End extends Tree[Nothing]
-{% endhighlight %}<br/>
+{% endhighlight %
 ### apply() for End 
 {% highlight scala %}
 object Node {
