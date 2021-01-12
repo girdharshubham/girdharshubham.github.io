@@ -1,5 +1,5 @@
 ---  
-title: "Docker Experiments: Start a container with curl"
+title: "Docker Experiments: REST Operations"
 comments: false
 category: ["docker"]
 ---  
