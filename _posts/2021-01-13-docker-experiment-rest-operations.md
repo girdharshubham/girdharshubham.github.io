@@ -5,8 +5,7 @@ category: ["docker"]
 ---  
 
 The Docker Daemon(**dockerd**) listens on `/var/run/docker.sock` by default and provides a REST API to control or communicate with the Docker daemon through scripting.  
-
-cURL can be used to send requests to sockets and this is what we are going to do today.
+cURL can be used to send requests to sockets and this is what we are going to do today.  
 
 ## Get version
 
