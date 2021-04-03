@@ -8,7 +8,8 @@ image:
 
 ## Work Experience
 
-### 2019 - Present: Software Consultant(DevOps and Scala) at Knoldus, Inc.
+### Jan 2019 - Present: Software Consultant(DevOps and Scala) at Knoldus, Inc.
+
 
 ## Certification
 - Certified Kubernetes Administrator [November 2020 - November 2023]: [View Badge](https://www.youracclaim.com/badges/498da3c8-b89e-49b6-be55-571a678b035c){:target="_blank"}
